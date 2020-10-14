@@ -1,47 +1,51 @@
 .banner {
-     height: 448px;
-     object-fit: contain;
-     background-position: center;
-     color: white;
+  height: 448px;
+  object-fit: contain;
+  background-position: center;
+  color: white;
 }
 
 .banner__contents {
-     margin-left: 3.7rem;
-     padding-top: 8rem;
+  margin-left: 3.7rem;
+  padding-top: 8rem;
 }
 
 .banner__buttons {
-     margin-top: 15px;
+  margin-top: 15px;
 }
 
 .banner__button {
-     border: none;
-     outline: none;
-     margin-right: 8px;
-     padding: 0.5rem 1.5rem;
-     background-color: rgb(51,51,51,.5);
-     color: white;
-     border-radius: 4px;
-     cursor: pointer;
+  border: none;
+  outline: none;
+  margin-right: 8px;
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(51, 51, 51, 0.5);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .banner__button:hover {
-     color: #000;
-     background-color: #fff;
-     transition: all 0.22s;
+  color: #000;
+  background-color: #fff;
+  transition: all 0.22s;
 }
 
 .banner__description {
-     margin-top: 15px;
-     max-width: 400px;
-     max-height: 150px;
-     font-weight: 700;
-     line-height: 1.4;
-     word-wrap: break-word;
-     overflow: hidden;
+  margin-top: 15px;
+  max-width: 400px;
+  max-height: 150px;
+  font-weight: 700;
+  line-height: 1.4;
+  word-wrap: break-word;
+  overflow: hidden;
 }
 
 .banner__fadeOut {
-     height: 150px;
-     background: linear-gradient(0deg, rgba(0,0,0,0.9051217899269083) 37%, rgba(124,116,116,0) 92%);
+  height: 150px;
+  background: linear-gradient(
+    -2deg,
+    rgba(0, 0, 0, 0.9415363557532388) 40%,
+    rgba(86, 84, 84, 0) 80%
+  );
 }
