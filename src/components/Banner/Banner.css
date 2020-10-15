@@ -1,7 +1,7 @@
 .banner {
   height: 448px;
   object-fit: contain;
-  background-position: center;
+  background-position: top;
   color: white;
 }
 
@@ -43,9 +43,6 @@
 
 .banner__fadeOut {
   height: 150px;
-  background: linear-gradient(
-    -2deg,
-    rgba(0, 0, 0, 0.9415363557532388) 40%,
-    rgba(86, 84, 84, 0) 80%
-  );
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,0.9303318739605217) 47%, rgba(153,152,152,0) 100%);
 }

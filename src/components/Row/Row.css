@@ -5,6 +5,11 @@
      color: white;
 }
 
+.row__title {
+     font-size: 22px;
+     margin-bottom: 4px;
+}
+
 .row__posters {
      display: flex;
      overflow-x: scroll;
